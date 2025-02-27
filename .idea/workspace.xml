@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1264684e-e575-4ed0-a59c-23c7c187608c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DeepLearningLearn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d2l/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/house_tiny.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch4.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch5.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch6.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ch7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ch7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/ch7.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +21,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -185,11 +185,35 @@
       <workItem from="1740361815682" duration="45514000" />
       <workItem from="1740543186662" duration="114000" />
       <workItem from="1740543302708" duration="12086000" />
+      <workItem from="1740570721188" duration="6636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepLearningLearn$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1740213584900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/d2l" />
