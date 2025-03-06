@@ -39,6 +39,7 @@ from torch.utils import data
 from torchvision import transforms
 from IPython import display
 from IPython.core.interactiveshell import InteractiveShell
+from PIL import Image
 
 
 def use_svg_display():
