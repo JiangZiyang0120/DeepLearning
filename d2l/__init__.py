@@ -429,14 +429,20 @@ def try_gpu(i=0):
     Defined in :numref:`sec_use_gpu`"""
     if torch.mps.device_count() >= i + 1:
         return torch.device(f'mps:{i}')
+    elif torch.cuda.device_count() >= i + 1:
+        return torch.device(f'cuda:{i}')
     return torch.device('cpu')
 
 def try_all_gpus():
     """返回所有可用的GPU，如果没有GPU，则返回[cpu(),]
 
     Defined in :numref:`sec_use_gpu`"""
-    devices = [torch.device(f'mps:{i}')
+    if torch.mps.is_available():
+        devices = [torch.device(f'mps:{i}')
              for i in range(torch.mps.device_count())]
+    elif torch.cuda.is_available():
+        devices = [torch.device(f'cuda:{i}')
+                   for i in range(torch.cuda.device_count())]
     return devices if devices else [torch.device('cpu')]
 
 def corr2d(X, K):
