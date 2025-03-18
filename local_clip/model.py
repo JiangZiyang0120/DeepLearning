@@ -242,15 +242,15 @@ class VisionTransformer(nn.Module):
 
 
         # [K, Patched, Batch_size, width] -> [B, K, P, w]
-        x_transformer_layers = torch.stack(x_transformer_layers, dim=0).permute(2, 0, 1, 3)
-        x_transformer_layers.permute(2, 0, 1, 3)
+        x_transformer_layers = torch.stack(x_transformer_layers, dim=0)
+        x_transformer_layers = x_transformer_layers.permute(2, 0, 1, 3)
 
         x = self.ln_post(x[:, 0, :])
 
         if self.proj is not None:
             x = x @ self.proj
 
-        return x, x_transformer_layers
+        return x, x_transformer_layers, self.proj
 
 
 class CLIP(nn.Module):
